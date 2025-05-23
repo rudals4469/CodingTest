@@ -66,7 +66,7 @@ class Program
                           -> freq[2] < freq[1] (o) -> Pop(2) -> stack = [0, 1] -> answer = [null, null, 1, 2, 2, 1, null]
                           -> freq[2] < freq[2] (x) -> stack = [0, 1, 6] ->  answer = [null, null, 1, 2, 2, 1, null]
         
-        stack.Count = 0이 될때 까지 Pop(n) 하고 그 수를 -1로 대입 ->  answer = [-1, -1, 1, 2, 2, 1, 1]
+        stack.Count = 0이 될때 까지 Pop(n) 하고 그 수를 -1로 대입 ->  answer = [-1, -1, 1, 2, 2, 1, -1]
         
          */
 
